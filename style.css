@@ -255,7 +255,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-weight: 300;
   font-size: 1.25rem;
   display: flex;
@@ -274,7 +274,7 @@ body {
 .text_shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: calc(2rem + 5vw);
@@ -369,7 +369,7 @@ body {
 /* subtle zoom to attention and then back */
 .pop-outin {
   animation: 2s anim-popoutin ease infinite;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 @keyframes anim-popoutin {
@@ -442,7 +442,7 @@ body {
   animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 25px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 @keyframes textclip {
